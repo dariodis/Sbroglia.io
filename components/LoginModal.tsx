@@ -41,7 +41,7 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
     setIsLoading(false)
 
     if (authError) {
-      setError(authError.message)
+      setError('Errore nell\'invio dell\'email. Riprova più tardi.')
       return
     }
 
