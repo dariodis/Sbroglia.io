@@ -49,7 +49,7 @@ export default function Home() {
             priority
             className="mx-auto mb-6 animate-fade-in"
           />
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2 animate-slide-up gradient-text">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2 animate-slide-up gradient-text pb-1.5">
             Sbroglia.io
           </h1>
           <p className="text-xl text-[var(--text-secondary)] mb-8 leading-relaxed animate-slide-up">
