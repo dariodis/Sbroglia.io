@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Sbroglia.io — Life Admin AI Assistant",
   description:
     "Togliti tutto il carico mentale. Descrivi cosa devi fare e Sbroglia.io organizza per te.",
+  icons: {
+    icon: "/sbroglia-logo.svg",
+  },
 };
 
 export default function RootLayout({

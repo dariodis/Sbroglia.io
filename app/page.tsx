@@ -44,15 +44,18 @@ export default function Home() {
           <Image
             src="/sbroglia-logo.svg"
             alt="Sbroglia.io"
-            width={160}
-            height={160}
+            width={120}
+            height={120}
             priority
             className="mx-auto mb-6 animate-fade-in"
           />
-          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[var(--text-primary)] mb-4 animate-slide-up">
-            Togliti tutto il <span className="gradient-text">carico mentale</span>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2 animate-slide-up gradient-text">
+            Sbroglia.io
           </h1>
-          <p className="text-lg text-[var(--text-secondary)] mb-3 leading-relaxed max-w-md mx-auto animate-slide-up">
+          <p className="text-xl text-[var(--text-secondary)] mb-8 leading-relaxed animate-slide-up">
+            Togliti tutto il carico mentale
+          </p>
+          <p className="text-base text-[var(--text-tertiary)] mb-10 leading-relaxed max-w-md mx-auto">
             Scrivi cosa devi fare in parole tue. L&apos;AI organizza tutto: task, scadenze, lista della spesa. Zero form, zero fatica.
           </p>
 
