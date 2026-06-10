@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A5A8FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer circle (ring) -->
+  <circle cx="256" cy="256" r="180" stroke="url(#g)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.15"/>
+
+  <!-- S letterform - thick main stroke -->
+  <path d="M340 170 
+           C340 120, 280 110, 250 140 
+           C220 170, 220 200, 250 230 
+           C280 260, 340 270, 340 320 
+           C340 370, 280 400, 200 380" 
+        stroke="url(#g)" stroke-width="28" stroke-linecap="round" fill="none"/>
+
+  <!-- Unraveling strand from bottom -->
+  <path d="M200 380 
+           C170 370, 150 340, 170 310
+           C190 280, 240 290, 240 310" 
+        stroke="url(#g)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.4"/>
+
+  <!-- Unraveling strand from top -->
+  <path d="M340 170 
+           C340 150, 320 130, 290 140
+           C260 150, 250 175, 260 195" 
+        stroke="url(#g)" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>
