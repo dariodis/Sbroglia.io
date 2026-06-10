@@ -1,4 +1,4 @@
-# Sbroglia.io — Life Admin AI Assistant
+# Sbroglia.ai — Life Admin AI Assistant
 
 **Sbroglia** (Italian: *untangle*) helps you organize your life by typing or speaking naturally. Describe what you need to do in plain Italian — the AI parses it into tasks, deadlines, reminders, and shopping items.
 

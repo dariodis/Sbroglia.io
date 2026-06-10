@@ -1,4 +1,4 @@
--- Sbroglia.io — Initial Schema
+-- Sbroglia.ai — Initial Schema
 -- Run this in Supabase SQL Editor
 
 -- 1. Profiles table (extends auth.users)

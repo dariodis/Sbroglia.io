@@ -12,7 +12,7 @@ export default async function AppLayout({
   const user = await getAuthenticatedUser()
 
   if (!user) {
-    redirect('/login')
+    redirect('/')
   }
 
   return (
@@ -22,7 +22,7 @@ export default async function AppLayout({
           <div className="flex items-center gap-3">
             <Image
               src="/sbroglia-logo.svg"
-              alt="Sbroglia.io"
+              alt="Sbroglia.ai"
               width={80}
               height={80}
               className="rounded-lg"

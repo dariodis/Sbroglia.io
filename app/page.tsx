@@ -43,14 +43,14 @@ export default function Home() {
 
           <Image
             src="/sbroglia-logo.svg"
-            alt="Sbroglia.io"
+            alt="Sbroglia.ai"
             width={120}
             height={120}
             priority
             className="mx-auto mb-6 animate-fade-in"
           />
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2 animate-slide-up gradient-text pb-1.5">
-            Sbroglia.io
+            Sbroglia.ai
           </h1>
           <p className="text-xl text-[var(--text-secondary)] mb-8 leading-relaxed animate-slide-up">
             Togliti tutto il carico mentale
@@ -229,7 +229,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <Image src="/sbroglia-logo.svg" alt="" width={24} height={24} />
-            <span className="text-sm text-[var(--text-tertiary)]">Sbroglia.io</span>
+            <span className="text-sm text-[var(--text-tertiary)]">Sbroglia.ai</span>
           </div>
           <p className="text-xs text-[var(--text-tertiary)]">
             Life Admin AI Assistant

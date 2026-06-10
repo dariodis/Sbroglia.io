@@ -63,8 +63,8 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
               Controlla la tua email
             </h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-              Ti abbiamo inviato un link magico a <strong className="text-[var(--text-primary)]">{email}</strong>.<br />
-              Cliccalo per accedere senza password.
+              Abbiamo inviato un link di accesso a <strong className="text-[var(--text-primary)]">{email}</strong>.<br />
+              Cliccalo per accedere al tuo account.
             </p>
             <div className="mt-6 flex items-center justify-center gap-3">
               <button
@@ -85,7 +85,7 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
           <>
             <div className="text-center mb-6">
               <h2 className="text-xl font-semibold text-[var(--text-primary)]">
-                Accedi a Sbroglia.io
+                Accedi a Sbroglia.ai
               </h2>
               <p className="text-sm text-[var(--text-secondary)] mt-1">
                 Nessuna password necessaria
@@ -128,11 +128,11 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
                     </svg>
                     Invio in corso...
                   </span>
-                ) : 'Invia link magico'}
+                ) : 'Invia email di accesso'}
               </button>
 
               <p className="text-xs text-center text-[var(--text-tertiary)]">
-                Riceverai un link via email. Nessuna password da ricordare.
+                Riceverai un link di accesso via email. Nessuna password da ricordare.
               </p>
             </form>
 
